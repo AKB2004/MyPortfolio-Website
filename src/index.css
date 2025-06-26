@@ -5,6 +5,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 /* we will use this effect for the projects sections */
 /* @layer utilities {
   .animate-gradient {

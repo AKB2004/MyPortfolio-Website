@@ -16,29 +16,3 @@ export const Hero = () => {
   );
 };
 
-
-
-
-// import React from "react";
-
-// export const Hero = () => {
-//   return (
-//     <section
-//   className="ml-56 h-screen w-[calc(100%-14rem)] flex items-center justify-center relative overflow-hidden text-white"
-// >
-//   <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 animate-gradient z-0" />
-  
-//   <div className="relative z-10 text-center px-4">
-//     <h1 className="text-4xl md:text-6xl font-bold drop-shadow-lg">
-//       Hi, I'm Abhinash
-//     </h1>
-//     <p className="text-lg md:text-2xl mt-4 font-light drop-shadow">
-//       Final Year B.Tech | Aspiring Software Developer
-//     </p>
-//   </div>
-// </section>
-
-//   );
-// };
-
-
