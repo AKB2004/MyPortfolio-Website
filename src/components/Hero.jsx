@@ -10,7 +10,7 @@ export const Hero = () => {
         Hi, I'm <span className="text-blue-400">Abhinash</span>
       </h1>
       <p className="text-xl text-gray-300">
-        Final Year B.Tech | Aspiring Software Developer
+        Final Year B.Tech | Web Developer
       </p>
     </section>
   );

@@ -1,27 +1,64 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Portfolio Website",
-    description: "This website showcasing my skills, projects, and profile.",
-    tech: "React, Three.js, Tailwind CSS",
-    github: "https://github.com/yourname/portfolio"
+    title: "VaLiDiFy",
+    github: "https://github.com/yourname/portfolio",
+    color: "bg-indigo-600",
   },
-  // Add more projects here
+  {
+    title: "SecuResidences",
+    github: "https://github.com/yourname/todo-app",
+    color: "bg-emerald-600",
+  },
+  {
+    title: "My Portfolio",
+    github: "https://github.com/yourname/blog-platform",
+    color: "bg-rose-600",
+  },
 ];
 
-export const Projects = () => (
-  <section className="py-20 px-4">
-    <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
-    <div className="grid gap-6 max-w-4xl mx-auto">
-      {projects.map((p, i) => (
-        <div key={i} className="bg-gray-800 p-6 rounded-xl shadow-md">
-          <h3 className="text-xl font-semibold">{p.title}</h3>
-          <p className="mt-2 text-sm text-gray-300">{p.description}</p>
-          <p className="mt-2 text-sm text-gray-400">Tech: {p.tech}</p>
-          <a href={p.github} className="mt-3 inline-block text-teal-400 underline">GitHub</a>
-        </div>
-      ))}
-    </div>
-  </section>
-);
+export const Projects = () => {
+  return (
+    <section
+      id="Projects"
+      className="h-screen w-full bg-black text-white overflow-hidden relative"
+    >
+      <h2 className="text-4xl font-bold text-center pt-10 mb-2 z-10 relative">
+        My Projects
+      </h2>
+
+      <div className="flex overflow-x-auto snap-x snap-mandatory h-full px-10 gap-10 scroll-smooth scrollbar-hide">
+        {projects.map((p, i) => (
+          <motion.div
+            key={i}
+            className="snap-center flex-shrink-0 w-full h-full flex flex-col items-center justify-center relative"
+            initial={{ x: 300, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.6 }}
+          >
+            {/* Solid Background Card */}
+            <div
+              className={`w-full h-4/5 ${p.color} rounded-xl shadow-lg flex items-end justify-center`}
+            >
+              {/* Overlay content */}
+              <div className="bg-black bg-opacity-60 w-full text-center py-6 rounded-b-xl">
+                <h3 className="text-2xl font-semibold mb-2">{p.title}</h3>
+                <a
+                  href={p.github}
+                  className="text-teal-400 underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </section>
+  );
+};

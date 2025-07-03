@@ -5,6 +5,8 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import Navbar from "./components/Navbar";
+import Resume from "./components/Resume";
+
 
 export default function App() {
   return (
@@ -14,7 +16,8 @@ export default function App() {
         <section id="Home"><Hero /></section>
         <section id="About"><About /></section>
         <section id="Projects"><Projects /></section>
-        <section id="Skills"><Skills /></section>       
+        <section id="Skills"><Skills /></section> 
+        <section id="Resume"><Resume/></section>      
         <section id="Contact"><Contact /></section>
       </div>
     </div>
