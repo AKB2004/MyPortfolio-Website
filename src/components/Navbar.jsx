@@ -52,6 +52,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Image1 from '../assets/img.png';
+import sign from '../assets/sign.png'
 import SocialIcons from './SocialIcons';
 import {
   FiHome,
@@ -105,9 +106,13 @@ function Navbar() {
       <img
         src={Image1}
         alt="profile"
-        className="rounded-full w-25 h-26 ml-11 mt-2 border-4 border-gray-600"
+        className="rounded-full w-25 h-26 ml-11 mt-2 border-4 border-gray-700"
       />
-      <p className="font-medium text-3xl ml-14 -mt-4">AKB</p>
+      {/* <img
+        src={sign}
+        alt="signature"
+        className="rounded-full w-28 h-28 ml-11 mt-2  "
+      /> */}
       <SocialIcons />
 
       {navItems.map((item) => (

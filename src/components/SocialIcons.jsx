@@ -4,29 +4,29 @@ import { FaInstagram, FaFacebookF, FaLinkedinIn, FaGithub, FaWhatsapp } from "re
 
 export default function SocialIcons() {
   return (
-    <div className="flex space-x-2 justify-center -mt-3 mb-6">
+    <div className="flex space-x-3 justify-center -mt-3 mb-6">
       {/* Instagram */}
       <a
         href="#"
         className="bg-gray-800 p-2 rounded-full hover:bg-[#E1306C] transition-all duration-300 text-white"
       >
-        <FaInstagram size={14.5} />
+        <FaInstagram size={18} />
       </a>
 
       {/* Facebook */}
-      <a
+      {/* <a
         href="#"
         className="bg-gray-800 p-2 rounded-full hover:bg-[#1877F2] transition-all duration-300 text-white"
       >
-        <FaFacebookF size={14.5} />
-      </a>
+        <FaFacebookF size={18} />
+      </a> */}
 
       {/* LinkedIn */}
       <a
         href="#"
         className="bg-gray-800 p-2 rounded-full hover:bg-[#0077B5] transition-all duration-300 text-white"
       >
-        <FaLinkedinIn size={14.5} />
+        <FaLinkedinIn size={18} />
       </a>
 
       {/* GitHub */}
@@ -34,7 +34,7 @@ export default function SocialIcons() {
         href="#"
         className="bg-gray-800 p-2 rounded-full hover:bg-[#333] transition-all duration-300 text-white"
       >
-        <FaGithub size={14.5} />
+        <FaGithub size={18} />
       </a>
 
       {/* WhatsApp */}
@@ -42,7 +42,7 @@ export default function SocialIcons() {
         href="#"
         className="bg-gray-800 p-2 rounded-full hover:bg-[#25D366] transition-all duration-300 text-white"
       >
-        <FaWhatsapp size={14.5} />
+        <FaWhatsapp size={18} />
       </a>
     </div>
   );
