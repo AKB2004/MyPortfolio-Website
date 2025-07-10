@@ -18,20 +18,7 @@ html {
 }
 
 
-
-/* we will use this effect for the projects sections */
-/* @layer utilities {
-  .animate-gradient {
-    animation: gradientBG 8s ease infinite;
-    background-size: 400% 400%;
-  }
-
-  @keyframes gradientBG {
-    0%, 100% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-  }
-} */
+.icon1 {
+  width:100px;
+  justify-self: center;
+}

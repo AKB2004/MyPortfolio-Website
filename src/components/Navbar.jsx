@@ -52,7 +52,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Image1 from '../assets/img.png';
-import sign from '../assets/sign.png'
+// import sign from '../assets/sign.png'
 import SocialIcons from './SocialIcons';
 import {
   FiHome,
@@ -97,7 +97,7 @@ function Navbar() {
     { id: 'About', icon: <FiUser />, label: 'About' },
     { id: 'Projects', icon: <FiFolder />, label: 'Projects' },
     { id: 'Skills', icon: <FiCode />, label: 'Skills' },
-    { id: 'Resume', icon: <FiFileText />, label: 'Resume' },
+    // { id: 'Resume', icon: <FiFileText />, label: 'Resume' },
     { id: 'Contact', icon: <FiMail />, label: 'Contact me' },
   ];
 

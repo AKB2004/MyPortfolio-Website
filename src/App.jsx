@@ -5,7 +5,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
 
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
         <section id="About"><About /></section>
         <section id="Projects"><Projects /></section>
         <section id="Skills"><Skills /></section> 
-        <section id="Resume"><Resume/></section>      
+        {/* <section id="Resume"><Resume/></section>       */}
         <section id="Contact"><Contact /></section>
       </div>
     </div>
