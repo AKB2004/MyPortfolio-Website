@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <section
   id="Home"
-  className="h-screen w-full flex flex-col items-center justify-center text-center bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white transition-all duration-500 px-4"
+  className="h-screen w-full flex flex-col items-center justify-center text-center bg-gradient-to-br from-gray-950 via-gray-800 to-black text-gray-200 transition-all duration-500 px-4"
 >
   {/* Greeting Line */}
   <p className="text-lg md:text-xl text-gray-400 mb-2 font-light tracking-wide">
@@ -23,10 +23,9 @@ export const Hero = () => {
 
     <Typewriter
       words={[
-        "web developer",
-        "frontend developer",
+        "Frontend developer",
         "UI/UX designer",
-        "full stack developer",
+        "Full stack developer",
       ]}
       loop={true}
       cursor

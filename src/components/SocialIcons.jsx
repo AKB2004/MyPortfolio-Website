@@ -7,7 +7,7 @@ export default function SocialIcons() {
     <div className="flex space-x-3 justify-center -mt-3 mb-6">
       {/* Instagram */}
       <a
-        href="#"
+        href="https://www.instagram.com/abhinash_bej22/"
         className="bg-gray-800 p-2 rounded-full hover:bg-[#E1306C] transition-all duration-300 text-white"
       >
         <FaInstagram size={18} />
@@ -23,7 +23,7 @@ export default function SocialIcons() {
 
       {/* LinkedIn */}
       <a
-        href="#"
+        href="https://www.linkedin.com/in/abhinash-kumar-bej-59aa27259/"
         className="bg-gray-800 p-2 rounded-full hover:bg-[#0077B5] transition-all duration-300 text-white"
       >
         <FaLinkedinIn size={18} />
@@ -31,7 +31,7 @@ export default function SocialIcons() {
 
       {/* GitHub */}
       <a
-        href="#"
+        href="https://github.com/AKB2004"
         className="bg-gray-800 p-2 rounded-full hover:bg-[#333] transition-all duration-300 text-white"
       >
         <FaGithub size={18} />
@@ -39,7 +39,7 @@ export default function SocialIcons() {
 
       {/* WhatsApp */}
       <a
-        href="#"
+        href="https://wa.me/917019984482"
         className="bg-gray-800 p-2 rounded-full hover:bg-[#25D366] transition-all duration-300 text-white"
       >
         <FaWhatsapp size={18} />
